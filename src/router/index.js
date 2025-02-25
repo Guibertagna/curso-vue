@@ -4,6 +4,7 @@ import CoresView from '@/views/CoresView.vue'
 import HomeView from '@/views/HomeView.vue'
 import ListatarefaView from '@/views/ListatarefaView.vue'
 import ListaView from '@/views/ListaView.vue'
+import PerguntasView from '@/views/PerguntasView.vue'
 import { createRouter, createWebHistory } from 'vue-router'
 
 const routes= [
@@ -12,6 +13,7 @@ const routes= [
   {path: '/carros', name: 'Carros',component:  ListaView, meta:{title: 'Carros'}},
   {path: '/cores', name:'Cores' ,component: CoresView, meta:{title: 'Cores'}},
   {path: '/tarefas', name:'Tarefas' ,component: ListatarefaView, meta:{title: 'Lista de Tarefas'}},
+  {path: '/perguntas', name:'Perguntas' ,component: PerguntasView, meta:{title: 'Perguntas e respostas'}},
 
 ];
 
