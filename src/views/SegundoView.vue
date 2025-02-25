@@ -5,3 +5,4 @@ import SegundoComponente from '../components/SegundoComponente.vue';
 <template>
         <SegundoComponente nome="Guilherme" />
 </template>
+<style scoped></style>

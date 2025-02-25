@@ -11,6 +11,13 @@ import ListatarefasComponent from '@/components/ListatarefasComponent.vue';
 
 </script>
 
-<style >
+<style scoped>
+    .container {
+    display: flex;
 
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100vw;
+}
 </style>
