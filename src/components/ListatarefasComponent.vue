@@ -23,7 +23,7 @@
 </template>
 
 <script setup>
-import { onBeforeMount, onMounted, ref } from 'vue';
+import { onBeforeMount, onMounted, onUpdated, ref } from 'vue';
 
 const itens = ref([
     { id: 1, descricao: "Estudar Vue.js", concluido: true },
@@ -32,7 +32,11 @@ const itens = ref([
 
 const novaTarefa = ref("");
 
-
+onUpdated()
+function atualiza(){
+    const storeItems = localStorage.getItem("itens")
+    itens.value = storeItems ? JSON.parse(storeItems) : []
+}
 onMounted(falamontado)
 
 function falamontado(){

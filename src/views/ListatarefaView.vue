@@ -1,7 +1,4 @@
 <template>
-        <router-link to="/" class="back-button">
-            <span class="material-icons">arrow_back</span>
-        </router-link>
     <ListatarefasComponent/>
 </template>
 

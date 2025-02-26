@@ -1,6 +1,5 @@
 <template>
 <div>
-    <router-link to="/" class="back-button" style="color: black;"><span class="material-icons">arrow_back</span> </router-link>
     <h1>  Exercício 2 </h1>
     <ContadorComponente @conta="contador" />
     <p v-if="!muda">se passar de 10 isso fica vermelho</p>
