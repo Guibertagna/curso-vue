@@ -1,4 +1,5 @@
 
+import ApiView from '@/views/ApiView.vue'
 import ContadorView from '@/views/ContadorView.vue'
 import CoresView from '@/views/CoresView.vue'
 import HomeView from '@/views/HomeView.vue'
@@ -14,7 +15,7 @@ const routes= [
   {path: '/cores', name:'Cores' ,component: CoresView, meta:{title: 'Cores'}},
   {path: '/tarefas', name:'Tarefas' ,component: ListatarefaView, meta:{title: 'Lista de Tarefas'}},
   {path: '/perguntas', name:'Perguntas' ,component: PerguntasView, meta:{title: 'Perguntas e respostas'}},
-
+  {path: '/api', name:'Api' ,component: ApiView, meta:{title: 'api teste'}},
 ];
 
 const router = createRouter({
