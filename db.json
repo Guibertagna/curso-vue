@@ -1,0 +1,65 @@
+{
+    "posts": [
+      {
+        "id": 1,
+        "title": "Hello, world!",
+        "content": "This is my first post.",
+        "authorId": 1,
+        "tags": ["intro", "hello"],
+        "createdAt": "2025-02-28T10:00:00Z"
+      },
+      {
+        "id": 2,
+        "title": "React vs Angular",
+        "content": "A detailed comparison between React and Angular.",
+        "authorId": 2,
+        "tags": ["frontend", "frameworks"],
+        "createdAt": "2025-02-27T15:30:00Z"
+      },
+      {
+        "id": 3,
+        "title": "JavaScript Tips",
+        "content": "Useful JavaScript tips for developers.",
+        "authorId": 1,
+        "tags": ["JavaScript", "tips"],
+        "createdAt": "2025-02-26T08:45:00Z"
+      }
+    ],
+    "users": [
+      {
+        "id": 1,
+        "name": "typicode",
+        "email": "typicode@example.com",
+        "role": "admin"
+      },
+      {
+        "id": 2,
+        "name": "devUser",
+        "email": "devuser@example.com",
+        "role": "editor"
+      }
+    ],
+    "comments": [
+      {
+        "id": 1,
+        "postId": 1,
+        "userId": 2,
+        "content": "Great post!",
+        "createdAt": "2025-02-28T12:00:00Z"
+      },
+      {
+        "id": 2,
+        "postId": 2,
+        "userId": 1,
+        "content": "I prefer React for its flexibility.",
+        "createdAt": "2025-02-27T17:45:00Z"
+      }
+    ],
+    "profile": {
+      "name": "typicode",
+      "bio": "Full-stack developer and API creator.",
+      "location": "San Francisco, CA",
+      "website": "https://typicode.com"
+    }
+  }
+  

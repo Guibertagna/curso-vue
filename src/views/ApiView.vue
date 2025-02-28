@@ -1,5 +1,7 @@
 <template>
-    <ApiComponente></ApiComponente>
+
+        <ApiComponente></ApiComponente>
+  
 </template>
 
 <script setup>
